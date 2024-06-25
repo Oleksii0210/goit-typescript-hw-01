@@ -3,7 +3,7 @@ type Page = {
   likes: number;
   accounts:[];
   status: string;
-  details?: 
+    details?:{createAt:string; updateAt:string}; 
 };
 const page1: Page = {
   title: "The awesome page",
